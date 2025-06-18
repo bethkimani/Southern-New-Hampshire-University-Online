@@ -13,7 +13,7 @@ pennies = 0
 
 # Calculate dollars
 dollars = money // 100
-if dollars > 0: 
+if dollars > 0:
     money = money - (dollars * 100)
     if dollars == 1:
         print(dollars, 'Dollar')
